@@ -2,7 +2,7 @@ const Telegraf = require('telegraf')
 const axios = require('axios')
 const cc = require('currency-codes')
 
-const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN || '1294844504:AAGbBtTXuprBIw1Cr2M2_1NUr98TuiBEQ38'
+const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN || '12345EXaMPLE'
 
 const bot = new Telegraf(TELEGRAM_BOT_TOKEN)
 
